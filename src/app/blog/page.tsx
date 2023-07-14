@@ -7,7 +7,7 @@ import DragDrop from "@/components/Drag&Drop";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FC } from "react";
-import Style from ".page.module.css";
+import Style from "./page.module.css";
 
 const Blog: FC = () => {
   return (
