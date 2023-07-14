@@ -15,7 +15,6 @@ const Contact = () => {
         <div className="flex flex-col items-center justify-center  h-screen overflow-x-hidden">
           <h1 className="max-md:mt-36 mb-3">Contact Form</h1>
           <Form />
-          
         </div>
       </motion.div>
     </>

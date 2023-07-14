@@ -17,10 +17,7 @@ const Blog: FC = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <Link href={"/home"} className="fixed bottom-10 left-10">
-          <button className="bg-green-500/70">Go to home page</button>
-        </Link>
-        <div>
+        <div className={`${Style.blog}`}>
           <h1 className="mb-10 text-center">State change by Redux</h1>
           <div className="flex flex-col items-center justify-center">
             <Button />
