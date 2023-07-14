@@ -1,6 +1,7 @@
 import React, { ChangeEvent, ChangeEventHandler, FC, useState } from "react";
 import { PopupMessage } from "./PopUpMessage";
 import { CheckboxProps, FormData } from "@/types";
+import { useRouter } from "next/navigation";
 
 const Checkbox: FC<CheckboxProps> = ({ label, value, onChange }) => {
   const handleCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -33,6 +34,7 @@ const Form: FC = () => {
     newsletter: false,
     tos: false,
   });
+  const router = useRouter();
 
   const handleCheckboxChange =
     (checkboxName: keyof FormData) => (checked: boolean) => {
@@ -60,6 +62,7 @@ const Form: FC = () => {
 
   const closePopup = () => {
     setShowPopup(false);
+    router.push("/home");
   };
 
   return (
