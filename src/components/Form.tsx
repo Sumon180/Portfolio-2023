@@ -63,7 +63,9 @@ const Form: FC = () => {
   };
 
   return (
-    <div className={`shadow-2xl shadow-red-500 w-[45rem] max-w-full px-10 py-5`}>
+    <div
+      className={`shadow-lg shadow-rose-400 hover:shadow-none transition-all duration-300 w-[45rem] max-w-full px-10 py-5`}
+    >
       <h4 className="text-[18.4px] font-medium mb-2">
         Enter your contact details
       </h4>
@@ -77,7 +79,7 @@ const Form: FC = () => {
                 name="firstName"
                 value={formData.firstName}
                 onChange={handleInputChange}
-                className="h-[44px] rounded outline-none px-3 bg-black"
+                className="h-[44px] rounded outline-none px-3 bg-slate-800"
                 required
               />
             </div>
@@ -88,7 +90,7 @@ const Form: FC = () => {
                 name="lastName"
                 value={formData.lastName}
                 onChange={handleInputChange}
-                className="h-[44px] rounded outline-none px-3 bg-black"
+                className="h-[44px] rounded outline-none px-3 bg-slate-800"
                 required
               />
             </div>
@@ -101,7 +103,7 @@ const Form: FC = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleInputChange}
-                className="h-[44px] rounded outline-none px-3 bg-black"
+                className="h-[44px] rounded outline-none px-3 bg-slate-800"
                 required
               />
             </div>
@@ -112,7 +114,7 @@ const Form: FC = () => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleInputChange}
-                className="h-[44px] rounded outline-none px-3 bg-black"
+                className="h-[44px] rounded outline-none px-3 bg-slate-800"
               />
             </div>
           </div>
@@ -123,7 +125,7 @@ const Form: FC = () => {
               name="date"
               value={formData.date}
               onChange={handleInputChange}
-              className="h-[44px] rounded outline-none px-3 bg-black"
+              className="h-[44px] rounded outline-none px-3 bg-slate-800"
             />
           </div>
           <div className="flex flex-col gap-2">
@@ -133,7 +135,7 @@ const Form: FC = () => {
               value={formData.message}
               onChange={handleInputChange}
               rows={3}
-              className="rounded outline-none px-3 bg-black resize-none"
+              className="rounded outline-none px-3 bg-slate-800 resize-none"
             />
           </div>
         </div>
@@ -149,7 +151,10 @@ const Form: FC = () => {
             onChange={handleCheckboxChange("tos")}
           />
         </div>
-        <button type="submit" className="bg-black text-white">
+        <button
+          type="submit"
+          className="bg-slate-800 hover:shadow-lg hover:shadow-rose-400 transition-all duration-200 text-white"
+        >
           Submit
         </button>
       </form>
