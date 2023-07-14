@@ -29,3 +29,48 @@ h2 {
 h3 {
   font-size: x-large;
 }
+button {
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+  background-color: crimson;
+  color: #fff;
+  margin: 10px auto;
+}
+
+.container {
+  position: relative;
+  border: 1px solid black;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: hotpink;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
