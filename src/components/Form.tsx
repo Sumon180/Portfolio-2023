@@ -64,7 +64,7 @@ const Form: FC = () => {
 
   return (
     <div
-      className={`shadow-lg shadow-rose-400 hover:shadow-none transition-all duration-300 w-[45rem] max-w-full px-10 py-5`}
+      className={`shadow-lg shadow-black hover:shadow-none transition-all duration-300 w-[45rem] max-w-full px-10 py-5`}
     >
       <h4 className="text-[18.4px] font-medium mb-2">
         Enter your contact details

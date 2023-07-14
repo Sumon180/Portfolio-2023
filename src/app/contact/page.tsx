@@ -13,7 +13,7 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
       >
         <div className="flex flex-col items-center justify-center  h-screen overflow-x-hidden">
-          <h1 className="max-md:mt-36 mb-3">Contact Form</h1>
+          <h1 className="max-md:mt-36 mb-3">Contact Us</h1>
           <Form />
         </div>
       </motion.div>
