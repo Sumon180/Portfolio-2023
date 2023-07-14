@@ -1,9 +1,8 @@
 "use client";
-import Form from "@/components/Form";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-const Contact = () => {
+const Projects = () => {
   return (
     <>
       <motion.div
@@ -12,10 +11,9 @@ const Contact = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="flex flex-col items-center justify-center  h-screen overflow-x-hidden">
-          <h1 className="max-md:mt-36 mb-3">Contact Form</h1>
-          <Form />
-          <Link href={"/home"} className="fixed bottom-10 left-10">
+        <div className="flex flex-col items-center justify-center h-screen overflow-x-hidden">
+          <h1>Project</h1>
+          <Link href={"/"} className="fixed bottom-10 left-10">
             <button className="bg-green-500/70">Go to home page</button>
           </Link>
         </div>
@@ -24,4 +22,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Projects;

@@ -17,11 +17,15 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: lightgrey;
+  background: #0f172a;
+}
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  font-size: x-large;
+}
+h3 {
+  font-size: x-large;
 }

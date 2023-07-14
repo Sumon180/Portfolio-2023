@@ -26,9 +26,9 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between">
         <div className="mx-7">
-          <h4 className="text-4xl uppercase font-bold text-gray-300">
+          <h1 className="uppercase font-bold text-gray-300">
             S<span className="text-rose-500">umo</span>n
-          </h4>
+          </h1>
         </div>
         <div
           className={` ${
@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className={`z-[999] text-gray-900  ${
+          className={`z-[999] text-gray-300  ${
             open ? "text-gray-900" : "text-gray-100"
           } text-3xl md:hidden m-5`}
         >

@@ -12,12 +12,24 @@
     "@types/node": "20.4.2",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.7",
+    "antd": "^5.7.0",
+    "aos": "^2.3.4",
     "autoprefixer": "10.4.14",
+    "framer-motion": "^10.12.20",
     "next": "13.4.9",
     "postcss": "8.4.25",
     "react": "18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-redux": "^8.1.1",
+    "react-scroll": "^1.8.9",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/aos": "^3.0.4"
   }
 }
