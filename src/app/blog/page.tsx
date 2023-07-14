@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 import Card from "@/components/Card";
 import Counter from "@/components/Counter";
 import ScrollAnimation from "@/components/ScrollAnimation";
-import DragDrop from "@/components/DragDrop";
+import DragDrop from "@/components/Drag&Drop";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FC } from "react";
