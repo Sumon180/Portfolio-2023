@@ -3,6 +3,7 @@ import Button from "@/components/Button";
 import Card from "@/components/Card";
 import Counter from "@/components/Counter";
 import ScrollAnimation from "@/components/ScrollAnimation";
+import DragDrop from "@/components/DragDrop";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FC } from "react";
@@ -26,7 +27,7 @@ const Blog: FC = () => {
             <Counter />
           </div>
           <div>
-            
+            <DragDrop />
             <Card />
             <ScrollAnimation />
           </div>

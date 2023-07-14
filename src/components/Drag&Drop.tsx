@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-function App() {
+function DragDrop() {
   const containerRef = useRef<HTMLDivElement>(null);
   const boxRef = useRef<HTMLDivElement>(null);
 
@@ -73,4 +73,4 @@ function App() {
   );
 }
 
-export default App;
+export default DragDrop;
