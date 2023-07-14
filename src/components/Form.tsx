@@ -1,6 +1,6 @@
 import React, { ChangeEvent, ChangeEventHandler, FC, useState } from "react";
 import { PopupMessage } from "./PopUpMessage";
-import { CheckboxProps,FormData } from "@/types";
+import { CheckboxProps, FormData } from "@/types";
 
 const Checkbox: FC<CheckboxProps> = ({ label, value, onChange }) => {
   const handleCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -60,11 +60,10 @@ const Form: FC = () => {
 
   const closePopup = () => {
     setShowPopup(false);
-   
   };
 
   return (
-    <div className={`shadow-2xl w-[45rem] max-w-full px-10 py-5 border`}>
+    <div className={`shadow-2xl shadow-red-500 w-[45rem] max-w-full px-10 py-5`}>
       <h4 className="text-[18.4px] font-medium mb-2">
         Enter your contact details
       </h4>
@@ -78,7 +77,7 @@ const Form: FC = () => {
                 name="firstName"
                 value={formData.firstName}
                 onChange={handleInputChange}
-                className="border h-[44px] rounded outline-none px-3"
+                className="h-[44px] rounded outline-none px-3 bg-black"
                 required
               />
             </div>
@@ -89,7 +88,7 @@ const Form: FC = () => {
                 name="lastName"
                 value={formData.lastName}
                 onChange={handleInputChange}
-                className="border h-[44px] rounded outline-none px-3"
+                className="h-[44px] rounded outline-none px-3 bg-black"
                 required
               />
             </div>
@@ -102,7 +101,7 @@ const Form: FC = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleInputChange}
-                className="border h-[44px] rounded outline-none px-3"
+                className="h-[44px] rounded outline-none px-3 bg-black"
                 required
               />
             </div>
@@ -113,7 +112,7 @@ const Form: FC = () => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleInputChange}
-                className="border h-[44px] rounded outline-none px-3"
+                className="h-[44px] rounded outline-none px-3 bg-black"
               />
             </div>
           </div>
@@ -124,7 +123,7 @@ const Form: FC = () => {
               name="date"
               value={formData.date}
               onChange={handleInputChange}
-              className="border h-[44px] rounded outline-none px-3"
+              className="h-[44px] rounded outline-none px-3 bg-black"
             />
           </div>
           <div className="flex flex-col gap-2">
@@ -134,7 +133,7 @@ const Form: FC = () => {
               value={formData.message}
               onChange={handleInputChange}
               rows={3}
-              className="border rounded outline-none px-3"
+              className="rounded outline-none px-3 bg-black resize-none"
             />
           </div>
         </div>
