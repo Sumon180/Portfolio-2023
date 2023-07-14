@@ -15,9 +15,6 @@ const About = () => {
       >
         <div className="flex flex-col items-center justify-center h-screen overflow-x-hidden">
           <h1>About</h1>
-          <Link href={"/"} className="fixed bottom-10 left-10">
-            <button className="bg-green-500/70">Go to home page</button>
-          </Link>
         </div>
       </motion.div>
     </>
