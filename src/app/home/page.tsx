@@ -11,11 +11,10 @@ const Home: FC = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
-        className="bg-[#0f172a]"
       >
-        <div className="my-40">
+        <div className="my-40  w-3/4 mx-auto">
           <ImgSlider />
-          <p className=" w-3/4 mx-auto mt-10">
+          <p className=" mt-10">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
             maxime nobis provident quaerat laborum atque labore incidunt, natus,
             doloremque, dolorum blanditiis repellendus quos. Ratione consequatur

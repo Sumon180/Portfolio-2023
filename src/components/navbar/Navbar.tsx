@@ -1,5 +1,7 @@
-"use client"
+"use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
+import logo from "../../images/s-logo.png";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -25,7 +27,10 @@ const Navbar = () => {
       }`}
     >
       <div className="flex items-center justify-between">
-        <div className="mx-7">
+        <div className="flex gap-2 mx-7">
+          <div className=" flex items-center justify-center">
+            <Image src={logo} alt={""} width={40} />
+          </div>
           <h1 className="uppercase font-bold text-gray-300">
             S<span className="text-rose-500">umo</span>n
           </h1>

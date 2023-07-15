@@ -1,4 +1,13 @@
-import React, { ChangeEvent, ChangeEventHandler, FC, useState } from "react";
+import React, {
+  ChangeEvent,
+  ChangeEventHandler,
+  FC,
+  useEffect,
+  useState,
+} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import { PopupMessage } from "./PopUpMessage";
 import { CheckboxProps, FormData } from "@/types";
 import { useRouter } from "next/navigation";
@@ -65,8 +74,13 @@ const Form: FC = () => {
     router.push("/home");
   };
 
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <div
+      data-aos="fade-down"
       className={`shadow-lg shadow-black hover:shadow-none transition-all duration-300 w-[45rem] max-w-full px-10 py-5`}
     >
       <h4 className="text-[18.4px] font-medium mb-2">

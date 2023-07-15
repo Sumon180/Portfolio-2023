@@ -18,16 +18,18 @@ const Blog: FC = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className={`${Style.blog}`}>
-          <h1 className="mb-10 text-center">State change by Redux</h1>
-          <div className="flex flex-col items-center justify-center">
-            <Button />
-            <Counter />
-          </div>
-          <div>
-            <DragDrop />
-            <Card />
-            <ScrollAnimation />
+        <div className="my-40  w-3/4 mx-auto">
+          <div className={`${Style.blog}`}>
+            <h1 className="mb-10 text-center">State change by Redux</h1>
+            <div className="flex flex-col items-center justify-center">
+              <Button />
+              <Counter />
+            </div>
+            <div>
+              <DragDrop />
+              <Card />
+              <ScrollAnimation />
+            </div>
           </div>
         </div>
       </motion.div>

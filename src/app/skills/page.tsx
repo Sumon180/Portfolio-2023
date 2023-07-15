@@ -11,7 +11,7 @@ const Skills = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="flex flex-col items-center justify-center h-screen overflow-x-hidden">
+        <div className="my-40  w-3/4 mx-auto">
           <h1>Skills</h1>
         </div>
       </motion.div>
