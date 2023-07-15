@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@types/node": "20.4.2",
-    "@types/react": "18.2.14",
-    "@types/react-dom": "18.2.7",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
     "antd": "^5.7.0",
     "aos": "^2.3.4",
     "autoprefixer": "10.4.14",
@@ -26,7 +26,8 @@
     "react-redux": "^8.1.1",
     "react-scroll": "^1.8.9",
     "tailwindcss": "3.3.2",
-    "typescript": "5.1.6"
+    "typescript": "^5.1.6",
+    "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
     "@reduxjs/toolkit": "^1.9.5",

@@ -92,3 +92,5 @@ button:focus-visible {
 .hoverable:hover .view-details {
   @apply top-0;
 }
+
+/* text effect */
