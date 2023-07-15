@@ -1,5 +1,7 @@
 "use client";
+import { projects } from "@/data/data";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 
 const Projects = () => {
@@ -12,7 +14,17 @@ const Projects = () => {
         transition={{ duration: 0.5 }}
       >
         <div className="my-40  w-3/4 mx-auto">
-          <h1>Project</h1>
+          <div className="grid grid-cols-3 gap-20">
+            {projects.map((project) => (
+              <Image
+                key={project.id}
+                src={project.img}
+                alt={""}
+                width={500}
+                height={300}
+              />
+            ))}
+          </div>
         </div>
       </motion.div>
     </>

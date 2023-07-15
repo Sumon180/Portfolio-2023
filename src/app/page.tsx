@@ -1,7 +1,9 @@
 export default function Home() {
   return (
-    <main className="flex min-h-[95vh] flex-col items-center justify-between">
-      <h1>Hi There</h1>
+    <main className="my-40  w-3/4 mx-auto">
+      <div>
+        <h1>HI, There Ihis is Home page</h1>
+      </div>
     </main>
   );
 }
