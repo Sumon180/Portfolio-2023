@@ -28,7 +28,9 @@ const Blog: FC = () => {
             <div>
               <DragDrop />
               <Card />
-              <ScrollAnimation />
+              <Link href={"/blog/aos"}>
+                <button className=" bg-rose-500">See scroll Animation</button>
+              </Link>
             </div>
           </div>
         </div>
