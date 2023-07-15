@@ -170,7 +170,7 @@ const Form: FC = () => {
         </div>
         <button
           type="submit"
-          className="bg-slate-800 hover:shadow-lg hover:shadow-rose-400 transition-all duration-200 text-white"
+          className="bg-slate-800 transition-all duration-200 text-white"
         >
           Submit
         </button>
