@@ -14,7 +14,7 @@ const About = () => {
         transition={{ duration: 0.5 }}
       >
         <div className="my-40  w-3/4 mx-auto">
-          <h1>About Page</h1>
+        <h2 className="text-center mb-20 text-5xl underline">About me</h2>
         </div>
       </motion.div>
     </>

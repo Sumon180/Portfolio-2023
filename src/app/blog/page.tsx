@@ -19,6 +19,7 @@ const Blog: FC = () => {
         transition={{ duration: 0.5 }}
       >
         <div className="my-40  w-3/4 mx-auto">
+        <h2 className="text-center mb-20 text-5xl underline">My blog</h2>
           <div className={`${Style.blog}`}>
             <h1 className="mb-10 text-center">State change by Redux</h1>
             <div className="flex flex-col items-center justify-center">

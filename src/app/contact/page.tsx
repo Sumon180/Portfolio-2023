@@ -14,7 +14,7 @@ const Contact = () => {
       >
         <div className="my-40  w-3/4 mx-auto">
           <div className="flex flex-col items-center justify-center">
-            <h1 className="max-md:mt-36 mb-3">Contact Us</h1>
+          <h2 className="text-center mb-20 text-5xl underline">Contact us</h2>
             <Form />
           </div>
         </div>
