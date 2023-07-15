@@ -41,26 +41,31 @@ export const projects = [
   {
     id: 1,
     title: "Landing Page",
+    link: "http://localhost:3000/home",
     img: Project1,
   },
   {
     id: 2,
     title: "Landing Page",
+    link: "http://localhost:3000/home",
     img: Project2,
   },
   {
     id: 3,
     title: "Landing Page",
+    link: "http://localhost:3000/home",
     img: Project3,
   },
   {
     id: 4,
     title: "Landing Page",
+    link: "http://localhost:3000/home",
     img: Project4,
   },
   {
     id: 5,
     title: "Landing Page",
+    link: "http://localhost:3000/home",
     img: Project5,
   },
 ];

@@ -71,3 +71,11 @@ button:focus-visible {
   width: 100px;
   cursor: pointer;
 }
+
+/* for project page */
+.view-details {
+  @apply transition-all duration-300;
+}
+.hoverable:hover .view-details {
+  @apply top-0;
+}
