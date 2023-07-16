@@ -34,10 +34,10 @@ body {
   background: #0f172a;
 }
 h1 {
-  font-size: xx-large;
+  @apply text-5xl;
 }
 h2 {
-  font-size: x-large;
+  font-size: xx-large;
 }
 h3 {
   font-size: x-large;

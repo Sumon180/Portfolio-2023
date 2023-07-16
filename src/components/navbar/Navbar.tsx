@@ -31,9 +31,9 @@ const Navbar = () => {
           <div className=" flex items-center justify-center">
             <Image src={logo} alt={""} width={40} />
           </div>
-          <h1 className="uppercase font-bold text-gray-300">
+          <h6 className="uppercase font-bold text-gray-300 text-4xl">
             S<span className="text-rose-500">umo</span>n
-          </h1>
+          </h6>
         </div>
         <div
           className={` ${
