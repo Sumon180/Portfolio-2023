@@ -14,7 +14,7 @@ const Button: FC = () => {
   return (
     <button
       onClick={handleClick}
-      className={`${clicked ? " bg-red-400" : " bg-lime-500"}`}
+      className={`${clicked ? "bg-gradient-to-r from-fuchsia-600 to-blue-600" : "bg-gradient-to-r from-fuchsia-600 to-lime-600"}`}
     >
       {clicked ? "See Console!" : "Click me"}
     </button>
