@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { FaReact } from "react-icons/fa";
 
 const Skills = () => {
   const skills = [
@@ -53,7 +54,9 @@ const Skills = () => {
                       className="w-32 h-32 flex items-center justify-center rounded-full"
                     >
                       <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
-                        <span>%</span>
+                        <span>
+                          <FaReact />
+                        </span>
                       </div>
                     </div>
                     <p className="text-xl mt-3">{skill.level}</p>
