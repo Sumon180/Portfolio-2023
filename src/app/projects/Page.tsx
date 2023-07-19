@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import style from "./page.module.css";
+import Swiper from "@/components/Swiper";
+
 
 const Projects = () => {
   return (
@@ -40,6 +42,7 @@ const Projects = () => {
           <h2 className="text-center mb-20 text-5xl underline">
             Another Projects
           </h2>
+          <Swiper />
         </div>
       </motion.div>
     </>

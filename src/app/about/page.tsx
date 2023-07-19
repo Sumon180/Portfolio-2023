@@ -28,10 +28,10 @@ const About = () => {
                 About <span className="text-cyan-600">Me</span>
               </h3>
               <p className="text-gray-400 my-3 text-2xl">My introduction</p>
-              <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
-                <div className="p-2">
+              <div className="flex justify-between md:flex-row flex-col-reverse items-center md:gap-6 max-w-full mx-auto">
+                <div className="p-2 w-6/12">
                   <div className="text-gray-300 my-3">
-                    <p className="text-justify leading-7 w-11/12 mx-auto">
+                    <p className="text-justify leading-7 mx-auto">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Ipsa eos, quam vel quisquam, explicabo sit labore
                       dignissimos optio ratione quibusdam doloribus pariatur
@@ -54,12 +54,12 @@ const About = () => {
                     <br />
                     <br />
                     <a href="./src/assets/Code_a_program.pdf" download>
-                      <button className="btn-primary">Download CV</button>
+                      <button className=" bg-slate-800">Download CV</button>
                     </a>
                   </div>
                 </div>
-                <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
-                  <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm aboutImg ">
+                <div className="w-5/12 md:mt-0 mt-6 flex justify-end items-center">
+                  <div className="lg:w-96 h-full relative sm:w-10/12 max-w-sm aboutImg ">
                     <Image
                       src={aboutImg}
                       alt=""
