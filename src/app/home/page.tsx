@@ -12,7 +12,7 @@ const Home: FC = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="my-40  w-3/4 mx-auto">
+        <div className="my-40  w-11/12 mx-auto">
           <ImgSlider />
           <p className=" mt-10">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore

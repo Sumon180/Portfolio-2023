@@ -27,12 +27,12 @@ const Navbar = () => {
       }`}
     >
       <div className="flex items-center justify-between">
-        <div className="flex gap-2 mx-7">
+        <div className="flex gap-2 mx-20">
           <div className=" flex items-center justify-center">
             <Image src={logo} alt={""} width={40} />
           </div>
           <h6 className="uppercase font-bold text-gray-300 text-4xl">
-            S<span className="text-rose-500">umo</span>n
+            S<span className="text-[#e5a02d]">umo</span>n
           </h6>
         </div>
         <div

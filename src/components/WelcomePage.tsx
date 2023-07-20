@@ -30,7 +30,7 @@ const WelcomePage = () => {
   }, [index]);
 
   return (
-    <div>
+    <>
       <div>
         <h1 className="bg-gradient-to-r from-indigo-500 from-5% via-sky-500 via-30% to-emerald-500 to-90% text-transparent bg-clip-text">
           Welcome to my profile
@@ -38,7 +38,7 @@ const WelcomePage = () => {
         <h2 className="my-5">
           <TextEffect />
         </h2>
-        <p>{text}</p>
+        <p className="lg:text-xl text-slate-400">{text}</p>
         <div className=" bg-slate-600 h-[1px] mt-2" />
         <section
           id="home"
@@ -84,7 +84,7 @@ const WelcomePage = () => {
             </h3>
             <p className="text-gray-400 mt-3 text-lg">Do you have any work?</p>
           </div>
-          <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-7xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
+          <div className="bg-gray-700 relative px-8 rounded-2xl py-5 min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
             <div>
               <h2 className="text-2xl font-semibold">
                 Do you want any work from me?
@@ -106,7 +106,7 @@ const WelcomePage = () => {
           </div>
         </section>
       </div>
-    </div>
+    </>
   );
 };
 
