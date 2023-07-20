@@ -1,7 +1,7 @@
 import React from "react";
 
 const Products3 = () => {
-  return <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+  return <section className="py-12 my-36 sm:py-16 lg:py-20 bg-gray-50">
   <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
       <div className="flex items-center justify-center lg:justify-between">
           <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">Beauty & Personal Care</h2>
