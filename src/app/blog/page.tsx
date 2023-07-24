@@ -12,6 +12,10 @@ import NewsLetter2 from "@/components/NewsLetter";
 import Products3 from "@/components/Products";
 import Team8 from "@/components/Team";
 import BlogGrid from "@/components/BlogGrid";
+import Content from "@/components/blogContent/Content";
+import Content2 from "@/components/blogContent/Content2";
+import Content3 from "@/components/blogContent/Content3";
+import BlogHeader from "@/components/navbar/BlogHeader";
 
 const Blog: FC = () => {
   return (
@@ -22,10 +26,11 @@ const Blog: FC = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="my-40 mx-auto">
-          <h2 className="text-center mb-20 text-5xl underline">My blog</h2>
-          <div className={`${Style.blog}`}>
-            <h1 className="mb-10 text-center">State change by Redux</h1>
+        <div className="my-28 mx-auto">
+          <BlogHeader />
+
+          <div className={`${Style.blog} mt-10`}>
+            <h2 className="mb-10 text-center">State change by Redux</h2>
             <div className="flex flex-col items-center justify-center">
               <Button />
               <Counter />
@@ -582,6 +587,11 @@ const Blog: FC = () => {
               <Products3 />
               <Team8 />
               <BlogGrid />
+              <section>
+                <Content />
+                <Content2 />
+                <Content3 />
+              </section>
             </div>
           </div>
         </div>

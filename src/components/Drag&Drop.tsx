@@ -63,7 +63,7 @@ function DragDrop() {
 
   return (
     <main className="grid place-items-center mt-10">
-      <h1 className=" my-5">Drag & Drop</h1>
+      <h2 className=" my-5">Drag & Drop</h2>
       <div ref={containerRef} className="container">
         <div ref={boxRef} className="box">
           Drag & Drop

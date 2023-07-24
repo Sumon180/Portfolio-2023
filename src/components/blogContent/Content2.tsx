@@ -2,11 +2,11 @@ import React from "react";
 
 const Content2 = () => {
   return (
-    <section className="py-12 bg-white sm:py-16 lg:py-20">
+    <section className="py-12 sm:py-16 lg:py-20">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-2xl">
-            <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl">
+            <h1 className="text-4xl font-bold  sm:text-5xl">
               7 Best Growth Hacking Tips for Startups & SaaS
             </h1>
             <p className="mt-6 text-base font-medium text-gray-500">
@@ -37,7 +37,7 @@ const Content2 = () => {
                       <a
                         href="#"
                         title=""
-                        className="flex text-base font-bold text-gray-900 hover:underline"
+                        className="flex text-base font-bold  hover:underline"
                       >
                         How to start growing business?
                       </a>
