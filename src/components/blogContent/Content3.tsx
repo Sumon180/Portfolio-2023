@@ -4,8 +4,8 @@ const Content3 = () => {
   return (
     <section className="py-12 sm:py-16 lg:py-20">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="max-w-5xl mx-auto">
-          <div className="max-w-3xl mx-auto">
+        <div className=" mx-auto">
+          <div className="mx-auto">
             <p className="text-base font-medium text-gray-500">
               November 22, 2021
             </p>

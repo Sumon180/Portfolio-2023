@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <section className="py-12 sm:py-16 lg:py-20">
+    <section className="py-12 mt-20 sm:py-16 lg:py-20 border">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-xl mx-auto text-center">
           <nav className="flex items-center justify-center">
