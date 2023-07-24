@@ -15,7 +15,10 @@ const BlogHeader = () => {
         <Link href={"/"} className="bg-slate-800 hover:bg-slate-700 px-10 py-2">
           Drag & Drop
         </Link>
-        <Link href={"/"} className="bg-slate-800 hover:bg-slate-700 px-10 py-2">
+        <Link
+          href={"/blog/buttons"}
+          className="bg-slate-800 hover:bg-slate-700 px-10 py-2"
+        >
           Button
         </Link>
         <Link href={"/"} className="bg-slate-800 hover:bg-slate-700 px-10 py-2">
