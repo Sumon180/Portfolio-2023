@@ -583,11 +583,11 @@ const Blog: FC = () => {
                   </div>
                 </div>
               </section>
-              <NewsLetter2 />
-              <Products3 />
-              <Team8 />
-              <BlogGrid />
               <section>
+                <NewsLetter2 />
+                <Products3 />
+                <Team8 />
+                <BlogGrid />
                 <Content />
                 <Content2 />
                 <Content3 />
