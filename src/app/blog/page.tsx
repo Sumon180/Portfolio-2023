@@ -69,6 +69,7 @@ const Blog: FC = () => {
               </section>
             </div>
           </div>
+          <PageUpButton />
         </div>
       </motion.div>
     </>
