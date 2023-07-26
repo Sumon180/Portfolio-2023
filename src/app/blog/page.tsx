@@ -24,6 +24,7 @@ import Sidebar from "@/components/blogContent/blogSidebar/Sidebar";
 import RegisteredForm from "@/components/blogContent/RegisteredForm";
 import RegisteredForm2 from "@/components/blogContent/RegisteredForm2";
 import PageUpButton from "@/components/PageUpButton";
+import Review from "@/components/review/Review";
 
 const Blog: FC = () => {
   return (
@@ -65,6 +66,7 @@ const Blog: FC = () => {
                 <Program5 />
                 <Transaction />
                 <Sidebar />
+                <Review />
               </section>
             </div>
           </div>

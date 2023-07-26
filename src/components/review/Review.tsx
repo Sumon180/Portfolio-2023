@@ -1,12 +1,12 @@
 import React from "react";
 
 const Review = () => {
-  return <section className="py-12 bg-white sm:py-16 lg:py-20">
+  return <section className="py-12 border mt-20 sm:py-16 lg:py-20">
   <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
       <div className="max-w-3xl mx-auto">
           <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 gap-x-16">
               <div>
-                  <h3 className="text-xl font-bold text-gray-900">Customer reviews & ratings</h3>
+                  <h3 className="text-xl font-bold">Customer reviews & ratings</h3>
                   <div className="flex items-center mt-6">
                       <div className="flex items-center space-x-px">
                           <svg className="w-5 h-5 text-amber-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -120,7 +120,7 @@ const Review = () => {
                           </div>
                           <div className="flex items-start mt-5 md:flex-col">
                               <div className="flex-shrink-0">
-                                  <p className="text-sm font-bold text-gray-900">Bessie Cooper</p>
+                                  <p className="text-sm font-bold ">Bessie Cooper</p>
                                   <p className="mt-1 text-sm font-normal text-gray-500">March 14, 2021</p>
                               </div>
                               <div className="flex items-center ml-4 text-sm font-medium text-gray-600 md:ml-0 md:mt-4">
@@ -133,9 +133,9 @@ const Review = () => {
                       </div>
 
                       <div className="md:col-span-5">
-                          <p className="text-base font-bold text-gray-900">Great product, smooth purchase</p>
+                          <p className="text-base font-bold ">Great product, smooth purchase</p>
                           <blockquote className="mt-4">
-                              <p className="text-sm font-normal leading-6 text-gray-900">Almost completed building my replacement website and very pleased with the result. Although the customization is great the theme's features and Customer Support have also been great..</p>
+                              <p className="text-sm font-normal leading-6 ">Almost completed building my replacement website and very pleased with the result. Although the customization is great the theme's features and Customer Support have also been great..</p>
                           </blockquote>
                       </div>
                   </li>
@@ -171,7 +171,7 @@ const Review = () => {
                           </div>
                           <div className="flex items-start mt-5 md:flex-col">
                               <div className="flex-shrink-0">
-                                  <p className="text-sm font-bold text-gray-900">Floyd Miles</p>
+                                  <p className="text-sm font-bold ">Floyd Miles</p>
                                   <p className="mt-1 text-sm font-normal text-gray-500">March 14, 2021</p>
                               </div>
                               <div className="flex items-center ml-4 text-sm font-medium text-gray-600 md:ml-0 md:mt-4">
@@ -184,9 +184,9 @@ const Review = () => {
                       </div>
 
                       <div className="md:col-span-5">
-                          <p className="text-base font-bold text-gray-900">Super fast, easy to use</p>
+                          <p className="text-base font-bold ">Super fast, easy to use</p>
                           <blockquote className="mt-4">
-                              <p className="text-sm font-normal leading-6 text-gray-900">
+                              <p className="text-sm font-normal leading-6 ">
                                   Really nicely designed theme and quite fast loading. The quickness of page loads you can really appreciate once you turn off page transition preloader in theme options.<br /><br />
                                   Custom support was really quick to respond to all my questions and resolve all my issue, very satisfied with this theme, VERY good value for money.
                               </p>
@@ -223,14 +223,14 @@ const Review = () => {
                                   />
                               </svg>
                           </div>
-                          <p className="mt-5 text-sm font-bold text-gray-900">Robert Fox</p>
+                          <p className="mt-5 text-sm font-bold ">Robert Fox</p>
                           <p className="mt-1 text-sm font-normal text-gray-500">March 14, 2021</p>
                       </div>
 
                       <div className="md:col-span-5">
-                          <p className="text-base font-bold text-gray-900">High quality design</p>
+                          <p className="text-base font-bold ">High quality design</p>
                           <blockquote className="mt-4">
-                              <p className="text-sm font-normal leading-6 text-gray-900">Very high quality theme and perfect for any modern business that wants to showcase it's products or services. Great work!</p>
+                              <p className="text-sm font-normal leading-6 ">Very high quality theme and perfect for any modern business that wants to showcase it's products or services. Great work!</p>
                           </blockquote>
                       </div>
                   </li>

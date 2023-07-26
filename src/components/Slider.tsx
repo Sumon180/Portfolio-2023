@@ -17,7 +17,7 @@ const ImgSlider: FC = () => (
       <h6 className="text-5xl py-5 text-center">Carousel</h6>
       <Carousel
         autoplay
-        className="w-3/4 flex items-center justify-center max-w-full mx-auto bg-red-400"
+        className="flex items-center justify-center max-w-full mx-auto bg-red-400"
       >
         {imgs.map((img) => (
           <div key={img.id} className="w-full">
