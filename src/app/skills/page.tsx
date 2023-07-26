@@ -1,9 +1,12 @@
 "use client";
+import CopyableBox from "@/components/CopyableBox";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaReact } from "react-icons/fa";
 
 const Skills = () => {
+  const text = "Hello, I'm a copyable text! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus ullam assumenda animi neque fugiat odio, molestias voluptates cumque obcaecati non? Fugit rem dolores obcaecati quidem, aliquid optio nesciunt reiciendis architecto sunt dolore ipsa corporis. Maiores animi possimus dolore perspiciatis rem dignissimos saepe hic voluptas culpa, recusandae, ratione, illum iste eius. Quia corrupti aspernatur nobis eaque totam, nulla ex obcaecati aut recusandae nesciunt repellendus similique doloribus. In fugiat incidunt, libero pariatur vitae, voluptatibus architecto provident eius est, aut quasi saepe at ipsa a error enim placeat voluptatum ratione harum. Aliquam delectus commodi assumenda odio cumque nulla provident velit facere earum eum voluptate, exercitationem voluptatibus, quia ab veritatis aut! Natus minus recusandae culpa quod quo perspiciatis est modi veritatis quaerat,";
+
   const skills = [
     {
       logo: "logo-html5",
@@ -65,6 +68,7 @@ const Skills = () => {
               </div>
             </div>
           </section>
+          <CopyableBox text={text} />
         </div>
       </motion.div>
     </>
