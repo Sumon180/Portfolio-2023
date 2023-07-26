@@ -8,7 +8,7 @@ const Article2 = () => {
         <p className="text-sm font-normal  font-pj">
           Nov 19, 2021
         </p>
-        <h1 className="max-w-4xl mt-6 text-3xl font-bold text-white sm:text-4xl xl:text-5xl font-pj xl:max-w-5xl">
+        <h1 className="max-w-4xl mt-6 text-3xl font-bold sm:text-4xl xl:text-5xl font-pj xl:max-w-5xl">
           How to create a successful website using Rareblocks UI Kit.
         </h1>
 
@@ -80,14 +80,14 @@ const Article2 = () => {
     </section>
     <section className="py-12  sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto xl:max-w-4xl">
-          <p className="text-sm font-bold tracking-widest text-gray-400 uppercase font-pj">
+        <div className="max-w-3xl mx-auto xl:max-w-5xl">
+          <p className="text-sm font-bold tracking-widest uppercase font-pj">
             Blog
           </p>
-          <h1 className="text-3xl font-bold text-gray-900 mt-7 sm:text-4xl xl:text-5xl font-pj">
+          <h1 className="text-3xl font-bold  mt-7 sm:text-4xl xl:text-5xl font-pj">
             Discover the most solutions for building landing page website.
           </h1>
-          <p className="text-sm font-normal text-gray-600 mt-7 font-pj">
+          <p className="text-sm font-normal  mt-7 font-pj">
             April 14, 2021
           </p>
 
@@ -261,14 +261,14 @@ const Article2 = () => {
             <h2 className="mt-12 text-3xl font-bold  font-pj">
               Get everything from scratch
             </h2>
-            <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
+            <p className="mt-6 text-base font-normal leading-7  font-pj">
               Massa risus sed eget ornare posuere turpis vitae. Id elementum
               velit posuere vestibulum lectus id eu sollicitudin. Tellus amet
               bibendum sit mus phasellus quis duis lacus. Enim eget sagittis,
               auctor iaculis nulla semper. In vitae neque integer integer metus,
               est, tristique fermentum tristique.
             </p>
-            <ul className="pl-5 mt-6 space-y-1 text-base font-normal leading-7 text-gray-700 list-disc list-outside font-pj">
+            <ul className="pl-5 mt-6 space-y-1 text-base font-normal leading-7  list-disc list-outside font-pj">
               <li>
                 Id elementum velit posuere vestibulum lectus id eu sollicitudin.
               </li>
@@ -279,7 +279,7 @@ const Article2 = () => {
             <h2 className="mt-12 text-3xl font-bold  font-pj">
               Choose from 120+ UI blocks
             </h2>
-            <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
+            <p className="mt-6 text-base font-normal leading-7  font-pj">
               Massa risus sed eget ornare posuere turpis vitae. Id elementum
               velit posuere vestibulum lectus id eu sollicitudin. Tellus amet
               bibendum sit mus phasellus quis duis lacus. Enim eget sagittis,
@@ -315,19 +315,19 @@ const Article2 = () => {
             <h2 className="mt-16 text-3xl font-bold font-pj">
               Create your first landing page
             </h2>
-            <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
+            <p className="mt-6 text-base font-normal leading-7 font-pj">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
               enim id habitasse nunc at turpis vestibulum pretium ridiculus.
               Tempus, amet mattis purus molestie urna. Tellus amet nisl, vel
               eget tincidunt. Viverra libero, etiam rhoncus amet, vulputate et
               sodales.
             </p>
-            <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
+            <p className="mt-6 text-base font-normal leading-7 font-pj">
               Cras hendrerit porta donec tincidunt sed elit dictum tellus. Quam
               aenean elit pretium risus. Ullamcorper proin interdum dui amet
               eleifend. Justo, morbi elit amet sollicitudin eget felis amet leo.
             </p>
-            <p className="mt-6 text-base font-normal leading-7 text-gray-700 font-pj">
+            <p className="mt-6 text-base font-normal leading-7 font-pj">
               Ac pretium tellus id ut. Netus sed consequat aliquet sed sed.
               Platea ac nunc ut curabitur et. In tristique montes, aenean nibh
               tempus viverra.

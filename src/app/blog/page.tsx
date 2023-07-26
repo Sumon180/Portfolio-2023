@@ -59,7 +59,6 @@ const Blog: FC = () => {
                 <Team8 />
                 <BlogGrid />
                 <Content />
-                <Content2 />
                 <Article2 />
                 <LogoCloud />
                 <Modal2 />

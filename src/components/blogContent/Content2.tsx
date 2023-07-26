@@ -2,7 +2,7 @@ import React from "react";
 
 const Content2 = () => {
   return (
-    <section className="py-12 mt-20 sm:py-16 lg:py-20 border">
+    <section className="py-12 mt-20 sm:py-16 lg:py-20">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-2xl">
@@ -100,7 +100,7 @@ const Content2 = () => {
               </p>
 
               <img
-                className="w-full"
+                className="w-full my-5"
                 src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/blog-content/2/image.png"
                 alt=""
               />
