@@ -2,7 +2,6 @@
 import Button from "@/components/Button";
 import Card from "@/components/Card";
 import Counter from "@/components/Counter";
-import ScrollAnimation from "@/components/ScrollAnimation";
 import DragDrop from "@/components/Drag&Drop";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -24,6 +23,7 @@ import Transaction from "@/components/blogContent/TransactionProgress";
 import Sidebar from "@/components/blogContent/blogSidebar/Sidebar";
 import RegisteredForm from "@/components/blogContent/RegisteredForm";
 import RegisteredForm2 from "@/components/blogContent/RegisteredForm2";
+import PageUpButton from "@/components/PageUpButton";
 
 const Blog: FC = () => {
   return (
@@ -49,17 +49,16 @@ const Blog: FC = () => {
               <Link href={"/blog/aos"}>
                 <button className=" bg-rose-500">See scroll Animation</button>
               </Link>
-              
-              <RegisteredForm2 />
-              <RegisteredForm />
+
               <section>
+                <RegisteredForm2 />
+                <RegisteredForm />
                 <NewsLetter2 />
                 <Products3 />
                 <Team8 />
                 <BlogGrid />
                 <Content />
                 <Content2 />
-
                 <Article2 />
                 <LogoCloud />
                 <Modal2 />

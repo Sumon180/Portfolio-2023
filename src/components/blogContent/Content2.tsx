@@ -15,8 +15,8 @@ const Content2 = () => {
           </div>
 
           <div className="mt-12 sm:mt-16 lg:grid lg:grid-cols-12 lg:gap-x-16 xl:gap-x-24">
-            <aside className="lg:col-span-4 lg:order-last lg:self-start lg:sticky lg:top-8">
-              <div className="overflow-hidden bg-white border border-gray-200">
+            <aside className="lg:col-span-4 lg:order-last lg:self-start lg:sticky lg:top-20">
+              <div className="overflow-hidden bg-slate-700">
                 <div className="px-4 py-5 sm:p-6">
                   <h4 className="text-xs font-bold tracking-widest text-gray-400 uppercase">
                     On this page

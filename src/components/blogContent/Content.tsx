@@ -79,7 +79,7 @@ const Content = () => {
         </div>
 
         <div className="grid grid-cols-1 mt-8 sm:mt-12 lg:mt-16 lg:grid-cols-12 lg:gap-x-12 gap-y-8">
-          <div className="lg:col-span-2 lg:self-start lg:sticky lg:top-6 lg:order-last">
+          <div className="lg:col-span-2 lg:self-start lg:sticky lg:top-20 lg:order-last">
             <ul className="flex space-x-3 lg:space-x-0 lg:space-y-4 lg:flex-col lg:items-center">
               <li>
                 <a

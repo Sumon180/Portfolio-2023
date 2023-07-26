@@ -3,7 +3,7 @@ import React from "react";
 const RegisteredForm2 = () => {
   return (
     <section>
-      <div className="min-h-full lg:flex lg:justify-between border">
+      <div className="min-h-full mt-20 lg:flex lg:justify-between border">
         <div className="flex flex-col justify-center flex-1 px-4 py-12  sm:px-6 lg:px-20 xl:px-24">
           <div className="flex-1 max-w-sm mx-auto lg:max-w-md">
             <img
@@ -33,9 +33,9 @@ const RegisteredForm2 = () => {
                         stroke="currentColor"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                         />
                       </svg>
@@ -83,9 +83,9 @@ const RegisteredForm2 = () => {
                         stroke="currentColor"
                       >
                         <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
                         />
                       </svg>

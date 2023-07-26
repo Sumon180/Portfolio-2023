@@ -3,11 +3,11 @@ import React from "react";
 const Transaction = () => {
   return (
     <div className="grid mt-20 px-4 py-24 sm:px-6 lg:px-8 place-items-center border">
-      <div className="relative w-full max-w-md mx-auto overflow-hidden  rounded-xl">
+      <div className="relative w-full max-w-md bg-slate-800 mx-auto overflow-hidden  rounded-xl">
         <div className="absolute top-0 right-0 pt-3 pr-3">
           <button
             type="button"
-            className="p-1 text-gray-400 transition-all duration-200 bg-white rounded-md hover:bg-gray-100 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2"
+            className="p-1 text-gray-400 transition-all duration-200 bg-slate-900 rounded-md hover:bg-gray-100 hover:text-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2"
           >
             <span className="sr-only">Close</span>
             <svg
@@ -52,14 +52,14 @@ const Transaction = () => {
             </svg>
 
             <p className="mt-8 text-xl font-bold ">Transaction in Progress</p>
-            <p className="mt-3 text-base font-medium text-gray-600">
+            <p className="mt-3 text-base font-medium text-gray-400">
               This can take a few minutes depending on gas. Don’t leave this
               page. You can do whatever you want.
             </p>
             <div className="mt-8">
               <button
                 type="button"
-                className="inline-flex items-center justify-center w-full px-6 py-4 text-xs font-bold tracking-widest text-gray-900 uppercase transition-all duration-200 bg-transparent border border-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-900 hover:text-white"
+                className="inline-flex items-center justify-center w-full px-6 py-4 text-xs font-bold tracking-widest  uppercase transition-all duration-200 bg-transparent border border-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900 hover:bg-gray-900 hover:text-white"
               >
                 View Status
               </button>

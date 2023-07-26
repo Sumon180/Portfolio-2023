@@ -46,7 +46,7 @@ const Team8 = () => {
                   x2="1.50002"
                   y2="453"
                   stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3"
+                  strokeWidth="3"
                 />
                 <defs>
                   <linearGradient
@@ -57,8 +57,8 @@ const Team8 = () => {
                     y2="0.120584"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -96,7 +96,7 @@ const Team8 = () => {
                   x2="1.50002"
                   y2="453"
                   stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3"
+                  strokeWidth="3"
                 />
                 <defs>
                   <linearGradient
@@ -107,8 +107,8 @@ const Team8 = () => {
                     y2="0.120584"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -127,7 +127,7 @@ const Team8 = () => {
                   x2="1.50002"
                   y2="453"
                   stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3"
+                  strokeWidth="3"
                 />
                 <defs>
                   <linearGradient
@@ -138,8 +138,8 @@ const Team8 = () => {
                     y2="0.120584"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -196,7 +196,7 @@ const Team8 = () => {
                   x2="1.50002"
                   y2="453"
                   stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3"
+                  strokeWidth="3"
                 />
                 <defs>
                   <linearGradient
@@ -207,8 +207,8 @@ const Team8 = () => {
                     y2="0.120584"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
@@ -227,7 +227,7 @@ const Team8 = () => {
                   x2="1.50002"
                   y2="453"
                   stroke="url(#paint0_linear_534_2132)"
-                  stroke-width="3"
+                  strokeWidth="3"
                 />
                 <defs>
                   <linearGradient
@@ -238,8 +238,8 @@ const Team8 = () => {
                     y2="0.120584"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop stop-color="#6DDCFF" stop-opacity="0" />
-                    <stop offset="1" stop-color="#7F60F9" />
+                    <stop stopColor="#6DDCFF" stopOpacity="0" />
+                    <stop offset="1" stopColor="#7F60F9" />
                   </linearGradient>
                 </defs>
               </svg>
