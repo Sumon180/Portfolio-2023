@@ -41,7 +41,7 @@ const ColorPicker: React.FC = () => {
             onClick={handleTogglePicker}
             className=" bg-gray-600 px-10 py-2 my-5"
           >
-            {showPicker ? "Ok" : "Set color"}
+            {showPicker ? "Ok" : "Set background color"}
           </button>
         </div>
         {showPicker && (
