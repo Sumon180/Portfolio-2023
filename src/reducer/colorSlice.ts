@@ -20,4 +20,4 @@ const colorSlice = createSlice({
 });
 
 export const { setColor } = colorSlice.actions;
-export default colorSlice.reducer;
+export default colorSlice;

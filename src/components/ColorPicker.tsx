@@ -1,5 +1,5 @@
-import { setColor } from "@/features/colorSlice";
-import { RootState } from "@/store";
+import { setColor } from "@/reducer/colorSlice";
+import { RootState } from "@/store/store";
 import React, { useEffect, useState } from "react";
 import { SketchPicker, ColorResult } from "react-color";
 import { useDispatch, useSelector } from "react-redux";
@@ -30,21 +30,19 @@ const ColorPicker: React.FC = () => {
 
   return (
     <>
-      <div className="relative text-black">
-        <div className="p-4">
-          <div className=" flex items-center justify-between mb-5">
-            <h2 className="text-lg font-bold mb-2">Color Picker</h2>
-            <button
-              onClick={handleTogglePicker}
-              className=" bg-gray-600 px-10 py-2"
-            >
-              Set color
-            </button>
-          </div>
+      <div className="relative">
+        <h2 className="font-bold mb-2 text-center text-5xl">Color Picker</h2>
+        <div>
           <div
-            className="w-[60rem] h-16 rounded-lg shadow-md mb-4 cursor-pointer"
+            className="w-full h-16 rounded-lg shadow-md mb-4 cursor-pointer"
             style={{ backgroundColor: selectedColor }}
           ></div>
+          <button
+            onClick={handleTogglePicker}
+            className=" bg-gray-600 px-10 py-2 my-5"
+          >
+            {showPicker ? "Ok" : "Set color"}
+          </button>
         </div>
         {showPicker && (
           <SketchPicker

@@ -25,6 +25,7 @@ import RegisteredForm from "@/components/blogContent/RegisteredForm";
 import RegisteredForm2 from "@/components/blogContent/RegisteredForm2";
 import PageUpButton from "@/components/PageUpButton";
 import Review from "@/components/review/Review";
+import ColorPicker from "@/components/ColorPicker";
 
 const Blog: FC = () => {
   return (

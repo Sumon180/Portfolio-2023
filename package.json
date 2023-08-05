@@ -19,6 +19,7 @@
     "next": "13.4.9",
     "postcss": "8.4.25",
     "react": "18.2.0",
+    "react-color": "^2.19.3",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "18.2.0",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "@reduxjs/toolkit": "^1.9.5",
-    "@types/aos": "^3.0.4"
+    "@types/aos": "^3.0.4",
+    "@types/react-color": "^3.0.6"
   }
 }
