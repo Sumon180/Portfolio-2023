@@ -52,6 +52,7 @@ const Blog: FC = () => {
               </Link>
 
               <section>
+                <ColorPicker />
                 <RegisteredForm2 />
                 <RegisteredForm />
                 <NewsLetter2 />
