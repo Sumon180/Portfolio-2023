@@ -6,9 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 const ColorPicker: React.FC = () => {
   const [showPicker, setShowPicker] = useState<boolean>(false);
-  const selectedColor = useSelector(
-    (state: RootState) => state.color.color
-  );
+  const selectedColor = useSelector((state: RootState) => state.color.color);
   const dispatch = useDispatch();
 
   const handleColorChange = (selectedColor: ColorResult) => {
@@ -20,7 +18,7 @@ const ColorPicker: React.FC = () => {
     // Load the color from local storage when the component mounts
     const savedColor = localStorage.getItem("selectedColor");
     if (savedColor) {
-      setColor(savedColor);
+      dispatch(setColor(savedColor));
     }
   }, []);
 
