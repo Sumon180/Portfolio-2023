@@ -43,8 +43,8 @@ const RegisteredForm2 = () => {
 
                     <input
                       type="text"
-                      name=""
-                      id=""
+                      name="Username"
+                     
                       placeholder="Username"
                       className="
                         block
@@ -93,8 +93,8 @@ const RegisteredForm2 = () => {
 
                     <input
                       type="password"
-                      name=""
-                      id=""
+                      name="password"
+                     
                       placeholder="Password (min. 8 characters)"
                       className="
                         block
@@ -124,7 +124,7 @@ const RegisteredForm2 = () => {
                   <input
                     type="checkbox"
                     name="terms"
-                    id="terms"
+                  
                     className="w-5 h-5 border-gray-300 rounded focus:ring-gray-900"
                   />
                 </div>

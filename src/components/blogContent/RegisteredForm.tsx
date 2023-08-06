@@ -141,8 +141,7 @@ const RegisteredForm = () => {
 
                       <input
                         type="text"
-                        name=""
-                        id=""
+                        name="Username"
                         placeholder="Username"
                         className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary "
                       />
@@ -172,8 +171,7 @@ const RegisteredForm = () => {
 
                       <input
                         type="email"
-                        name=""
-                        id=""
+                        name="email"
                         placeholder="Email"
                         className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary "
                       />
@@ -203,8 +201,7 @@ const RegisteredForm = () => {
 
                       <input
                         type="password"
-                        name=""
-                        id=""
+                        name="password"
                         placeholder="Password"
                         className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary "
                       />
@@ -234,8 +231,7 @@ const RegisteredForm = () => {
 
                       <input
                         type="password"
-                        name=""
-                        id=""
+                        name="password"
                         placeholder="Confirm"
                         className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary bg-black"
                       />
@@ -248,8 +244,7 @@ const RegisteredForm = () => {
                     <div className="flex items-center h-5">
                       <input
                         type="checkbox"
-                        name=""
-                        id=""
+                        name="checkbox"
                         className="w-4 h-4 bg-transparent border-2 rounded border-primary text-black focus:border-primary focus:ring-primary"
                       />
                     </div>

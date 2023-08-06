@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 const ColorPicker: React.FC = () => {
   const [showPicker, setShowPicker] = useState<boolean>(false);
   const selectedColor = useSelector(
-    (state: RootState) => state.color.selectedColor
+    (state: RootState) => state.color.color
   );
   const dispatch = useDispatch();
 

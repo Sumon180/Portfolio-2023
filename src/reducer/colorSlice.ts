@@ -1,11 +1,11 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
 interface ColorState {
-  selectedColor: string;
+  color: string;
 }
 
 const initialState: ColorState = {
-  selectedColor: localStorage.getItem('color') || '#417505',
+  color: localStorage.getItem('color') || '#417505',
 };
 
 const colorSlice = createSlice({
@@ -13,7 +13,7 @@ const colorSlice = createSlice({
   initialState,
   reducers: {
     setColor: (state, action: PayloadAction<string>) => {
-      state.selectedColor = action.payload;
+      state.color = action.payload;
       localStorage.setItem('color', action.payload);
     },
   },
