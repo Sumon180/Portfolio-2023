@@ -12,7 +12,7 @@ import { PopupMessage } from "./PopUpMessage";
 import { CheckboxProps, FormData } from "@/types";
 import { useRouter } from "next/navigation";
 
-const Checkbox: FC<CheckboxProps> = ({ label, value, onChange }) => {
+const Checkbox: FC<CheckboxProps> = ({ label, value, onChange,style }) => {
   const handleCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
     onChange(event.target.checked);
   };
@@ -24,6 +24,7 @@ const Checkbox: FC<CheckboxProps> = ({ label, value, onChange }) => {
         checked={value}
         onChange={handleCheckboxChange}
         className="mr-3"
+        style={style}
         required
       />
       {label}
@@ -161,6 +162,7 @@ const Form: FC = () => {
             label="Option 1"
             value={formData.newsletter}
             onChange={handleCheckboxChange("newsletter")}
+            style={{accentColor: "#000"}}
           />
           <Checkbox
             label="Agree, term and condition"
