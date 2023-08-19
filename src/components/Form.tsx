@@ -162,7 +162,7 @@ const Form: FC = () => {
             label="Option 1"
             value={formData.newsletter}
             onChange={handleCheckboxChange("newsletter")}
-            style={{accentColor: "#000"}}
+            style={{accentColor: "#6f17ff"}}
           />
           <Checkbox
             label="Agree, term and condition"
