@@ -166,6 +166,7 @@ const Form: FC = () => {
             label="Agree, term and condition"
             value={formData.tos}
             onChange={handleCheckboxChange("tos")}
+            style={{accentColor: "#ff00c7"}}
           />
         </div>
         <button
