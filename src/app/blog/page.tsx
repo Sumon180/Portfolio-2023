@@ -6,7 +6,7 @@ import DragDrop from "@/components/Drag&Drop";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FC } from "react";
-import Style from "./page.module.css";
+import Style from "./page.module.scss";
 import NewsLetter2 from "@/components/blogContent/NewsLetter";
 import Products3 from "@/components/blogContent/Products";
 import Team8 from "@/components/blogContent/Team";
