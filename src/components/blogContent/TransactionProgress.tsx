@@ -2,7 +2,7 @@ import React from "react";
 
 const Transaction = () => {
   return (
-    <div className="grid mt-20 px-4 py-24 sm:px-6 lg:px-8 place-items-center border">
+    <div className="grid px-4 py-24 sm:px-6 lg:px-8 place-items-center border">
       <div className="relative w-full max-w-md bg-slate-800 mx-auto overflow-hidden  rounded-xl">
         <div className="absolute top-0 right-0 pt-3 pr-3">
           <button

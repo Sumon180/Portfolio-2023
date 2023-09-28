@@ -6,7 +6,6 @@ import Link from "next/link";
 import style from "./page.module.css";
 import Swiper from "@/components/Swiper";
 
-
 const Projects = () => {
   return (
     <>
@@ -32,7 +31,7 @@ const Projects = () => {
                   className="h-full"
                 />
                 <div className="bg-black/70 w-full h-full absolute left-0 top-[500px] flex justify-center items-center view-details">
-                  <button className="bg-rose-500 font-semibold text-xl rounded-md">
+                  <button className="bg-rose-500 font-semibold text-xl rounded-md px-10 py-3">
                     View project
                   </button>
                 </div>

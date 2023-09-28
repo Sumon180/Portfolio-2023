@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const LogoCloud = () => {
   return (
-    <section className="relative mt-20 py-12 overflow-hidden sm:py-16 lg:py-20 xl:py-24 border">
+    <section className="relative py-12 overflow-hidden sm:py-16 lg:py-20 xl:py-24 border">
       <div className="absolute transform -translate-x-1/2 translate-y-full bottom-2/3 left-1/2">
         <svg
           className="opacity-30 blur-3xl filter"
@@ -53,7 +53,7 @@ const LogoCloud = () => {
           </h2>
         </div>
 
-        <div className="max-w-3xl mx-auto mt-8 sm:mt-12">
+        <div className="w-full mx-auto mt-8 sm:mt-12">
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-x-16 md:gap-y-12">
             <img
               className="object-contain w-20 max-w-full sm:h-8 md:h-10 sm:w-44"

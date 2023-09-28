@@ -3,11 +3,11 @@ import React from "react";
 const RegisteredForm2 = () => {
   return (
     <section>
-      <div className="min-h-full mt-20 lg:flex lg:justify-between border">
+      <div className="min-h-full lg:flex lg:justify-between border">
         <div className="flex flex-col justify-center flex-1 px-4 py-12  sm:px-6 lg:px-20 xl:px-24">
           <div className="flex-1 max-w-sm mx-auto lg:max-w-md">
             <img
-              className="w-auto h-8 mx-auto lg:mx-0"
+              className="w-auto h-8 mx-auto lg:mx-0 bg-orange-100"
               src="https://cdn.rareblocks.xyz/collection/clarity/images/logo.svg"
               alt=""
             />
@@ -20,8 +20,7 @@ const RegisteredForm2 = () => {
               <div className="space-y-4">
                 <div>
                   <label htmlFor="" className="sr-only">
-                    {" "}
-                    Email{" "}
+                    Email
                   </label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
@@ -44,7 +43,6 @@ const RegisteredForm2 = () => {
                     <input
                       type="text"
                       name="Username"
-                     
                       placeholder="Username"
                       className="
                         block
@@ -70,8 +68,7 @@ const RegisteredForm2 = () => {
 
                 <div>
                   <label htmlFor="" className="sr-only">
-                    {" "}
-                    Password{" "}
+                    Password
                   </label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
@@ -94,7 +91,6 @@ const RegisteredForm2 = () => {
                     <input
                       type="password"
                       name="password"
-                     
                       placeholder="Password (min. 8 characters)"
                       className="
                         block
@@ -124,25 +120,20 @@ const RegisteredForm2 = () => {
                   <input
                     type="checkbox"
                     name="terms"
-                  
                     className="w-5 h-5 border-gray-300 rounded focus:ring-gray-900"
                   />
                 </div>
 
                 <div className="ml-3 text-base">
-                  <label
-                    htmlFor="terms"
-                    className="font-normal text-gray-900 font-pj"
-                  >
-                    {" "}
-                    I agree with{" "}
+                  <label htmlFor="terms" className="font-normal font-pj">
+                    I agree with
                     <a
                       href="#"
                       title=""
                       className="font-bold rounded focus:outline-none focus:ring-1 focus:ring-gray-900 focus:ring-offset-2 hover:underline"
                     >
                       Terms & Conditions
-                    </a>{" "}
+                    </a>
                   </label>
                 </div>
               </div>
@@ -155,7 +146,7 @@ const RegisteredForm2 = () => {
                       background:
                         "linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)",
                     }}
-                  ></div>
+                  />
                 </div>
 
                 <button

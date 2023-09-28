@@ -2,7 +2,7 @@ import React from "react";
 
 const BlogGrid = () => {
   return (
-    <section className="py-12 mt-20 text-slate-400 sm:py-16 lg:py-20 border">
+    <section className="py-12 text-slate-400 sm:py-16 lg:py-20 border">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-lg mx-auto text-center">
           <h2 className="text-3xl font-bold  sm:text-4xl">

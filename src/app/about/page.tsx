@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
@@ -54,7 +54,9 @@ const About = () => {
                     <br />
                     <br />
                     <a href="./src/assets/Code_a_program.pdf" download>
-                      <button className=" bg-slate-800">Download CV</button>
+                      <button className=" bg-rose-600 px-10 py-3 font-semibold rounded-full">
+                        Download CV
+                      </button>
                     </a>
                   </div>
                 </div>

@@ -52,22 +52,61 @@ const Blog: FC = () => {
                 <button className=" bg-rose-500">See scroll Animation</button>
               </Link>
 
-              <section>
+              <section className="space-y-14">
                 <ColorPicker />
-                <RegisteredForm2 />
-                <RegisteredForm />
-                <NewsLetter2 />
-                <Products3 />
-                <Team8 />
-                <BlogGrid />
-                <Content />
-                <Article2 />
-                <LogoCloud />
-                <Modal2 />
-                <Program5 />
-                <Transaction />
-                <Sidebar />
-                <Review />
+                <div>
+                  <h2>Registration form</h2>
+                  <RegisteredForm2 />
+                  <RegisteredForm />
+                </div>
+                <div>
+                  <h2>News Letter</h2>
+                  <NewsLetter2 />
+                </div>
+                <div>
+                  <h2>Products</h2>
+                  <Products3 />
+                </div>
+                <div>
+                  <h2>Team</h2>
+                  <Team8 />
+                </div>
+                <div>
+                  <h2>Grid Blog</h2>
+                  <BlogGrid />
+                </div>
+                <div>
+                  <h2>Content</h2>
+                  <Content />
+                </div>
+                <div>
+                  <h2>Article</h2>
+                  <Article2 />
+                </div>
+                <div>
+                  <h2>Logo Cloud</h2>
+                  <LogoCloud />
+                </div>
+                <div>
+                  <h2>Modal</h2>
+                  <Modal2 />
+                </div>
+                <div>
+                  <h2>Program</h2>
+                  <Program5 />
+                </div>
+                <div>
+                  <h2>Transaction</h2>
+                  <Transaction />
+                </div>
+                <div>
+                  <h2>Sidebar</h2>
+                  <Sidebar />
+                </div>
+                <div>
+                  <h2>Review</h2>
+                  <Review />
+                </div>
               </section>
             </div>
           </div>

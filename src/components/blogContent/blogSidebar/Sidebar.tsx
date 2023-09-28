@@ -2,8 +2,8 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <section className="py-12 mt-20 sm:py-16 lg:py-20 border">
-      <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+    <section className="py-12 sm:py-16 lg:py-20 border">
+      <div className="px-4 mx-auto sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-6 lg:gap-x-12 xl:gap-x-20">
           <div className=" lg:col-span-4 rounded-xl">
             <div className="px-4 py-5 sm:p-6 h-96"></div>

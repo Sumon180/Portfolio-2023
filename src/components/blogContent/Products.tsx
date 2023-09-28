@@ -2,7 +2,7 @@ import React from "react";
 
 const Products3 = () => {
   return (
-    <section className="py-12 my-36 sm:py-16 lg:py-20 border">
+    <section className="py-12 sm:py-16 lg:py-20 border">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex items-center justify-center lg:justify-between">
           <h2 className="text-2xl font-bold  sm:text-3xl">

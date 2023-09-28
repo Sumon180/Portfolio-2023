@@ -2,7 +2,7 @@ import React from "react";
 
 const Modal2 = () => {
   return (
-    <div className="h-96  mt-20 border w-full">
+    <div className="h-96 border w-full">
       <div className="flex items-center justify-center w-full h-full px-4 py-5 sm:p-6">
         <div className="w-full max-w-sm bg-slate-800  shadow-lg rounded-xl">
           <div className="px-4 py-5 sm:p-6">

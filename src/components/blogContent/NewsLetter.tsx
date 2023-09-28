@@ -2,7 +2,7 @@ import React from "react";
 
 const NewsLetter2 = () => {
   return (
-    <section className="py-12 mt-20 sm:py-16 lg:py-20 xl:py-24 border">
+    <section className="py-12 sm:py-16 lg:py-20 xl:py-24 border">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid items-center max-w-5xl grid-cols-1 mx-auto lg:grid-cols-2 gap-y-12 lg:gap-x-24">
           <div className="lg:order-2">
@@ -59,8 +59,8 @@ const NewsLetter2 = () => {
               </div>
 
               <p className="w-40 ml-4 text-base font-medium text-gray-500">
-                <span className="text-gray-900">18K recruiters</span> have
-                already subscribed
+                <span className=" text-white">18K recruiters</span> have already
+                subscribed
               </p>
             </div>
           </div>

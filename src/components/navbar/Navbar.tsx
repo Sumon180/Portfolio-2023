@@ -2,6 +2,8 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import logo from "../../images/s-logo.png";
+import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -14,6 +16,8 @@ const Navbar = () => {
     { name: "BLOG", link: "/blog" },
     { name: "CONTACT", link: "/contact" },
   ];
+  const pathname = usePathname();
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       document.querySelector("nav");
@@ -46,7 +50,9 @@ const Navbar = () => {
             {menuLinks?.map((menu, i) => (
               <li
                 key={i}
-                className="px-6 hover:text-rose-600 transition-all duration-200"
+                className={`${
+                  pathname === menu?.link && "text-rose-600"
+                } px-6 hover:text-rose-600 transition-all duration-200`}
               >
                 <a href={menu?.link}>{menu?.name}</a>
               </li>

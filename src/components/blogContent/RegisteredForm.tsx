@@ -2,7 +2,7 @@ import React from "react";
 
 const RegisteredForm = () => {
   return (
-    <section className="relative py-12 sm:py-16 lg:py-20 border my-16">
+    <section className="relative py-12 sm:py-16 lg:py-20 border mt-5">
       <div className="absolute inset-0">
         <img
           className="object-cover w-full h-full opacity-40"
@@ -16,16 +16,13 @@ const RegisteredForm = () => {
           <div>
             <h2 className="tracking-tighter text-white">
               <span className="font-sans text-4xl font-normal sm:text-5xl md:text-6xl">
-                {" "}
-                The road to{" "}
+                The road to
               </span>
               <span className="font-serif text-5xl italic sm:text-6xl sm:block md:text-7xl">
-                {" "}
-                the perfect loaf{" "}
+                the perfect loaf
               </span>
               <span className="font-sans text-4xl font-normal sm:text-5xl md:text-6xl">
-                {" "}
-                starts here.{" "}
+                starts here.
               </span>
             </h2>
             <p className="mt-8 font-sans text-lg text-opacity-50 text-white">
@@ -120,8 +117,7 @@ const RegisteredForm = () => {
                 <div className="grid gap-4 sm:grid-cols-2">
                   <div className="sm:col-span-2">
                     <label htmlFor="" className="sr-only">
-                      {" "}
-                      Username{" "}
+                      Username
                     </label>
                     <div className="relative">
                       <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -143,15 +139,14 @@ const RegisteredForm = () => {
                         type="text"
                         name="Username"
                         placeholder="Username"
-                        className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary "
+                        className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal bg-black text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary "
                       />
                     </div>
                   </div>
 
                   <div className="sm:col-span-2">
                     <label htmlFor="" className="sr-only">
-                      {" "}
-                      Email address{" "}
+                      Email address
                     </label>
                     <div className="relative">
                       <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -173,15 +168,14 @@ const RegisteredForm = () => {
                         type="email"
                         name="email"
                         placeholder="Email"
-                        className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary "
+                        className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal bg-black text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary "
                       />
                     </div>
                   </div>
 
                   <div>
                     <label htmlFor="" className="sr-only">
-                      {" "}
-                      Password{" "}
+                      Password
                     </label>
                     <div className="relative">
                       <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -203,15 +197,14 @@ const RegisteredForm = () => {
                         type="password"
                         name="password"
                         placeholder="Password"
-                        className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary "
+                        className="block w-full py-3 pl-12 pr-4 font-sans text-base font-normal bg-black text-white placeholder-primary placeholder-opacity-50 border rounded-lg border-neutral focus:outline-none focus:ring-primary focus:border-primary "
                       />
                     </div>
                   </div>
 
                   <div>
                     <label htmlFor="" className="sr-only">
-                      {" "}
-                      Confirm password{" "}
+                      Confirm password
                     </label>
                     <div className="relative">
                       <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -253,9 +246,8 @@ const RegisteredForm = () => {
                         htmlFor=""
                         className="font-sans text-base font-normal text-opacity-50 text-white"
                       >
-                        {" "}
                         By creating an account, you agree to the Terms and
-                        Conditions and Privacy Policy{" "}
+                        Conditions and Privacy Policy
                       </label>
                     </div>
                   </div>

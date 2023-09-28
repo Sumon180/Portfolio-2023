@@ -2,19 +2,18 @@ import React from "react";
 
 const Program5 = () => {
   return (
-    <section className="py-12 mt-20 sm:py-16 lg:py-20 border">
-      <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
+    <section className="py-12 sm:py-16 lg:py-20 border">
+      <div className="px-6 mx-auto sm:px-8 lg:px-12 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-12">
           <div className="flex flex-col self-stretch justify-between">
             <div className="flex-1">
               <h2 className="tracking-tighter ">
                 <span className="font-sans text-4xl font-normal sm:text-5xl md:text-6xl">
-                  {" "}
-                  A private, community{" "}
+                  A private, community
                 </span>
+                <br />
                 <span className="font-serif text-5xl italic sm:text-6xl sm:block md:text-7xl">
-                  {" "}
-                  focused masterclassName{" "}
+                  focused master class Name
                 </span>
               </h2>
               <p className="mt-6 font-sans text-lg font-normal text-opacity-50 text-white">
@@ -116,7 +115,7 @@ const Program5 = () => {
                 <p className="mt-2 font-serif text-3xl italic ">
                   Week 1 - Week 2
                 </p>
-                <p className="mt-4 font-sans text-base font-normal text-opacity-50 ">
+                <p className="mt-4 font-sans text-base font-normal text-opacity-50 text-white">
                   Etiam orci, tellus vestibulum sem in viverra quisque. Mi massa
                   mauris amet lorem fusce. Iaculis id viverra ut semper mattis
                   pellentesque.
@@ -130,7 +129,7 @@ const Program5 = () => {
                 <p className="mt-2 font-serif text-3xl italic ">
                   Week 3 - Week 8
                 </p>
-                <p className="mt-4 font-sans text-base font-normal text-opacity-50 border">
+                <p className="mt-4 font-sans text-base font-normal text-opacity-50 text-white">
                   Etiam orci, tellus vestibulum sem in viverra quisque. Mi massa
                   mauris amet lorem fusce. Iaculis id viverra ut semper mattis
                   pellentesque.
