@@ -11,7 +11,7 @@ const Footer2 = () => {
             <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
               <div className="flex items-center gap-3">
                 <Image className="w-auto h-9" src={logo} alt={""} width={40} />
-                <h2>Sumon Hossain</h2>
+                <h2 className=" max-sm:text-2xl">Sumon Hossain</h2>
               </div>
 
               <p className="text-base leading-relaxed text-gray-600 mt-7">
