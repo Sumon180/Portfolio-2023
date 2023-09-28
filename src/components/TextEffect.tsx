@@ -6,7 +6,7 @@ const TextEffect = () => {
   return (
     <Typewriter
       options={{
-        strings: ["MERN Expert", "Full-Stack", "MERN Expert"],
+        strings: ["MERN Expert", "Full-Stack Developer", "Web Developer"],
         autoStart: true,
         delay: 50,
         loop: true,

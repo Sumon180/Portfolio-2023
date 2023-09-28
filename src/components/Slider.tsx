@@ -14,7 +14,7 @@ const contentStyle: CSSProperties = {
 const ImgSlider: FC = () => (
   <>
     <div className="mt-10">
-      <h6 className="text-5xl py-5 text-center">Carousel</h6>
+      <h6 className="text-5xl py-5 text-center">antd Carousel</h6>
       <Carousel
         autoplay
         className="flex items-center justify-center max-w-full mx-auto bg-red-400"

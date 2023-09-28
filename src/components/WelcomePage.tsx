@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsInstagram, BsFacebook, BsTwitter } from "react-icons/bs";
 import TextEffect from "@/components/TextEffect";
 import hero from "../images/hero.png";
 import React from "react";
 import hireMe from "../images/hireMe.png";
+import Link from "next/link";
 
 const WelcomePage = () => {
   const [text, setText] = useState("");
@@ -14,10 +15,22 @@ const WelcomePage = () => {
   const [index, setIndex] = useState(0);
 
   const social_media = [
-    "logo-instagram",
-    "logo-facebook",
-    "logo-linkedin",
-    "logo-twitter",
+    {
+      link: "",
+      media: <BsFacebook />,
+    },
+    {
+      link: "",
+      media: <BsLinkedin />,
+    },
+    {
+      link: "",
+      media: <BsInstagram />,
+    },
+    {
+      link: "",
+      media: <BsTwitter />,
+    },
   ];
 
   useEffect(() => {
@@ -62,15 +75,14 @@ const WelcomePage = () => {
               </h4>
               <button className="bg-slate-800 mt-8">Contact Me</button>
               <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
-                {social_media?.map((icon) => (
-                  <div
-                    key={icon}
+                {social_media?.map((social, i) => (
+                  <Link
+                    href={social.link}
+                    key={i}
                     className="text-gray-600 hover:text-white cursor-pointer "
                   >
-                    <span>
-                      <BsLinkedin />
-                    </span>
-                  </div>
+                    <span>{social.media}</span>
+                  </Link>
                 ))}
               </div>
             </div>

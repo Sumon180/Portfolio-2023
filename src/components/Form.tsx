@@ -12,7 +12,7 @@ import { PopupMessage } from "./PopUpMessage";
 import { CheckboxProps, FormData } from "@/types";
 import { useRouter } from "next/navigation";
 
-const Checkbox: FC<CheckboxProps> = ({ label, value, onChange,style }) => {
+const Checkbox: FC<CheckboxProps> = ({ label, value, onChange, style }) => {
   const handleCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
     onChange(event.target.checked);
   };
@@ -162,13 +162,13 @@ const Form: FC = () => {
             label="Option 1"
             value={formData.newsletter}
             onChange={handleCheckboxChange("newsletter")}
-            style={{accentColor: "#6f17ff"}}
+            style={{ accentColor: "#6f17ff" }}
           />
           <Checkbox
             label="Agree, term and condition"
             value={formData.tos}
             onChange={handleCheckboxChange("tos")}
-            style={{accentColor: "#ff00c7"}}
+            style={{ accentColor: "#ff00c7" }}
           />
         </div>
         <button
