@@ -52,8 +52,8 @@ h6 {
   @apply text-xl;
 }
 
-button {
-  @apply px-8 py-2 rounded-md font-semibold;
+.message:hover .message-tooltip {
+  @apply block;
 }
 
 .animation {
