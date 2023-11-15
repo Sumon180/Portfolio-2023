@@ -1,17 +1,34 @@
 "use client";
 
-import React, { useState } from "react";
+import { MdMessage } from "react-icons/md";
+
+import React, { useEffect, useRef, useState } from "react";
 
 const Message = () => {
   const [chat, setChat] = useState(false);
+  const chatRef = useRef<HTMLDivElement | null>(null);
+
+  const handleClickOutside = (event: MouseEvent) => {
+    if (chatRef.current && !chatRef.current.contains(event.target as Node)) {
+      setChat(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside);
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className="fixed bottom-16 right-16 z-50">
+    <div ref={chatRef} className="fixed bottom-16 right-16 z-50">
       <div className="relative message">
         <button
           onClick={() => setChat(!chat)}
-          className="bg-rose-600 w-10 h-10 rounded-full text-white"
+          className="bg-rose-600 w-10 h-10 rounded-full text-white flex items-center justify-center"
         >
-          +
+          <MdMessage className=" text-xl" />
         </button>
         <div className="absolute bottom-8 right-8 hidden message-tooltip duration-300">
           Send message
