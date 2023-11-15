@@ -20,9 +20,26 @@ const Message = () => {
       <div
         className={`${
           chat ? "scale-1 origin-bottom-right" : "scale-0 origin-bottom-right"
-        } absolute bg-rose-400 h-[30rem] w-[25rem] right-9 bottom-9 duration-300`}
+        }  absolute bg-rose-400 h-[30rem] w-[25rem] right-9 bottom-9 duration-300 rounded-lg p-5`}
       >
-        HI
+        <h6>Send message</h6>
+        <div className="flex flex-col items-end gap-3 mt-5">
+          <input
+            type="email"
+            placeholder="Email Address"
+            className="w-full rounded-md bg-transparent border outline-none px-3 py-2"
+          />
+          <textarea
+            name=""
+            id=""
+            rows={5}
+            placeholder="Type message"
+            className="w-full h rounded-md bg-transparent border outline-none px-3 py-2"
+          />
+          <button className="bg-rose-600 px-7 py-2 rounded-md text-white">
+            Send
+          </button>
+        </div>
       </div>
     </div>
   );
